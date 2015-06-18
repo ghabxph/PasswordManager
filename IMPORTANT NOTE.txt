@@ -1,0 +1,5 @@
+Important note:
+
+1. Make sure that iv.b64 and dt.b64 both exist, or the system will create a new pair of files, and remove all your passwords!
+2. Initially, there is no iv.b64 and dt.b64 file at first run. It will be created once you setup the password manager.
+3. That's all for now. :)
