@@ -244,7 +244,6 @@ public class PasswordManager{
 		
 		FileReader ivFileFr = new FileReader(ivFile);
 		FileReader dtFileFr = new FileReader(dtFile);
-		//ivKey should be in base64 format!
 		int i;
 		
 		do{
@@ -289,25 +288,3 @@ public class PasswordManager{
 		cb.setContents(ss, null);
 	}
 }
-
-/*
- *
- * 
- * Account    | Username                      | Password
- * Google     | ghabxph@gmail.com             | somepassword
- * Google     | ghabxph.official@gmail.com    | somepassword99
- *
- * decrypt -> xml -> memory
- * memory -> xml -> encrypt
- *
- *
- *
- * initialize
- * Enter the passphrase: do not kill dummy.
- *
- *
- * Files that I need:
- * iv.b64
- * dt.b64
- * 
- */

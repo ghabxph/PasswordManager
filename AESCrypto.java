@@ -1,5 +1,5 @@
 /**
- * @(#)AES256Crypto.java
+ * @(#)AESCrypto.java
  *
  *
  * @author : Ghabx
